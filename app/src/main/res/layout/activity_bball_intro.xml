@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorBackground">
+
+       <EditText
+           android:id="@+id/edtHome"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="12dp"
+           android:hint="Home Team:"
+           android:textColor="#000"
+           android:textSize="20sp"
+           android:textStyle="bold" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/edtHome"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="62dp"
+           android:fontFamily="monospace"
+           android:text="Vs"
+           android:textColor="#000"
+           android:textSize="40sp"
+           android:textStyle="bold" />
+
+       <EditText
+           android:id="@+id/edtAway"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_centerVertical="true"
+           android:hint="Away Team:"
+           android:textColor="#000"
+           android:textSize="20sp"
+           android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Proceed"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
